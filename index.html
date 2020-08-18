@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images\logo img.jpg" width="130" height="70" class="d-inline-block align-top" alt="">
+    </a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About-us" target="_blank">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="document.location = '#About-us'" target="_blank">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="document.location = 'login.html'" target="_blank">LOGIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="document.location = 'signup.html'" target="_blank">SIGNUP</a>
+      </li>
+    </ul>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" class="slider">
+          <div class="carousel-item active">
+            <img id="slider-img" class="d-block w-100" src="images\slider images\ladies collection.jpg" alt="First slide">
+          </div>
+          <div id="slider-img" class="carousel-item">
+            <img class="d-block w-100" src="images\slider images\boys collection.jpg" alt="Second slide">
+          </div>
+          <div id="slider-img" class="carousel-item">
+            <img class="d-block w-100" src="images\slider images\kids collection.jpg" alt="Third slide">
+          </div>
+          <div id="slider-img" class="carousel-item">
+            <img class="d-block w-100" src="images\slider images\mens collection.jpg" alt="fourth slide">
+          </div>
+        </div>
+      </div>
+     
+        <div id="About-us" class="card-body">
+            <h2 class="intro-heading">
+            ABOUT<span class="heading-color">  US</span>
+            </h2>
+          <p class="card-text">Fashion is very important. It is life-enhancing and, like everything that gives pleasure, it is worth doing well.
+            The importance of clothing is to protect, cover, make us feel attractive and help us to move around in comfort. Clothing brings confidence and reflects the personality of the person. We deal with best quality dresses in reasonable prices The clothes should be washable, long lasting, and light weight. ...
+            The clothes should be easy to put on and take off so they can be worn by people of all ages</p>
+      </div>
+    </div>
+  
+    <h2 class="intro-heading">
+     OUR<span class="heading-color">  PRODUCTS</span>
+      </h2>
+<div class="card-group">
+  <div id="collection-card" class="card">
+    <div class="container">
+      <img src="images\slider images\boys collection.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <button class="text" onclick="document.location = 'ladies.html'">Boys Collection</button>
+      </div>
+    </div>
+  </div>
+  <div id="collection-card" class="card">
+    <div class="container">
+      <img src="images\slider images\ladies collection s.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <button class="text" onclick="document.location = 'ladies.html'">Ladies Collection</button>
+      </div>
+    </div>
+  </div>
+  <div id="collection-card" class="card">
+    <div class="container">
+      <img src="images\slider images\girls collection.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <button class="text" onclick="document.location = 'boys-collection.html'">Kids Collection</button>
+      </div>
+    </div>
+  </div>
+  <div id="collection-card" class="card">
+    <div class="container">
+      <img src="images\slider images\mens collection.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <button class="text" onclick="document.location = 'ladies.html'">Men Collection</button>
+      </div>
+    </div>
+</div>
+    </div>
+    <h2 class="intro-heading">
+      NEW<span class="heading-color">  ARRIVAL</span>
+       </h2>
+       <div class="card-deck">
+        <div class="card">
+          <img src="images\slider images\mens collection.jpg" alt="Al karam" style="width:100%">
+      <h1>Al Karam</h1>
+      <p class="price">PKR2000</p>
+      <p>Pure cotton stuff</p>
+      <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img src="images\slider images\mens collection.jpg" alt="Al karam" style="width:100%">
+        <h1>Al Karam</h1>
+        <p class="price">PKR2000</p>
+        <p>Pure cotton stuff</p>
+        <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+              <img src="images\slider images\mens collection.jpg" alt="Al karam" style="width:100%">
+          <h1>Al Karam</h1>
+          <p class="price">PKR2000</p>
+          <p>Pure cotton stuff</p>
+          <p><button>Add to Cart</button></p>
+              </div>
+              <div class="card">
+                <img src="images\slider images\mens collection.jpg" alt="Al karam" style="width:100%">
+            <h1>Al Karam</h1>
+            <p class="price">PKR2000</p>
+            <p>Pure cotton stuff</p>
+            <p><button>Add to Cart</button></p>
+                </div>
+       </div>
+      </div><div class="card-deck">
+        <div class="card">
+          <img src="images\new arrival\kids.jpg" alt="Al karam" style="width:100%">
+      <h1>Al Karam</h1>
+      <p class="price">PKR2000</p>
+      <p>Pure cotton stuff</p>
+      <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card">
+            <img src="images\new arrival\kids.jpg" alt="Al karam" style="width:100%">
+        <h1>Al Karam</h1>
+        <p class="price">PKR2000</p>
+        <p>Pure cotton stuff</p>
+        <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+              <img src="images\new arrival\kids.jpg" alt="Al karam" style="width:100%">
+          <h1>Al Karam</h1>
+          <p class="price">PKR2000</p>
+          <p>Pure cotton stuff</p>
+          <p><button>Add to Cart</button></p>
+              </div>
+              <div class="card">
+                <img src="images\new arrival\kids.jpg" alt="Al karam" style="width:100%">
+            <h1>Al Karam</h1>
+            <p class="price">PKR2000</p>
+            <p>Pure cotton stuff</p>
+            <p><button>Add to Cart</button></p>
+                </div>
+       </div>
+  <footer class="footer-distributed">
+ 
+    <div class="footer-left">
+        <img src="images\logo img.jpg">
+      <h3>THE CLOTHING <span>APPAREL</span></h3>
+
+      <ul class="footer-links">
+        <li><a href="#">Shipping Information</a></li>
+        <li><a href="#">Return & Exchange</a></li>
+       <li><a href="#">Terms & Conditions</a></li> 
+        <li><a href="#">Payment</a></li> 
+      <ul>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+       <h5>CONTACT INFORMATION</h5> 
+       
+          <p>
+           
+          Phone : 
+            03013311961
+          </p>
+       
+          <p>
+           Email : 
+            <a href="mailto:theclothingapparel@gmail.com" > theclothingapparel@gmail.com</a> 
+          </p>
+        
+          <p>
+           WORKING DAYS/HOURS : 
+Mon - Sun / 9:00AM - 9:00PM
+          </p>
+    
+      </div>
+    </div>
+  
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the company</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
